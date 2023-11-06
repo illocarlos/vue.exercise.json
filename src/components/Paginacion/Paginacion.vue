@@ -2,8 +2,8 @@
 </script>
 <template>
     <div class="bl-btn">
-        <button class="btn-back">back</button>
-        <button class="btn-next">next</button>
+        <button @click="$emit('btBack')" class="btn-back">back</button>
+        <button @click="$emit('btNext')" class="btn-next">next</button>
     </div>
 </template>
 
